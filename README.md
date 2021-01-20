@@ -22,9 +22,9 @@ Pour administrer son site Wordpress en local, on installe [LocalWP](https://loca
 Choisir un thème et le personnaliser.
 
 ```mermaid
-graph TD;
-A(Apparence) --> B(Thèmes);
-B --> C(Télécharger thème);
+graph LR
+A(Apparence) --> B(Thèmes)
+B --> C(Télécharger thème)
 ```
 
 ##  Modification Menu
